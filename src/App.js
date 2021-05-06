@@ -14,3 +14,14 @@ export default function App() {
     </div>
   );
 }
+
+// const promiseAllWay = async () => {
+//     const data1 = await axios("url1");
+//     const data2 = await axios("url2");
+//     //this bypasses .this and allows instant access to data
+//     //hard to catch an error
+//     Promise.all([data1, data2]).then((resp) => {
+//       console.log(resp[0]);
+//       console.log(resp[1]);
+//     })
+// }
